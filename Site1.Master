@@ -6,25 +6,35 @@
 <head runat="server">
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
+
+
+
+
+
+
+
+
+
     </asp:ContentPlaceHolder>
 </head>
 <body>
 
     <form id="form1" runat="server">
     <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-
-            <asp:PlaceHolder ID="PlaceHolder1" runat="server">
-            <asp:Label ID="Label1" runat="server" Text="">
+        
                 <img src="Images/BowTieLogo.jpg" />
                 <div style:display:inline;>
                     <a id="LogIn" style=" font-family:Verdana;">Log In  ||</a> 
                     <a id="Suits" style="font-family:Verdana;">Suits    ||</a>
                     <a id="DressShirts"style="font-family:Verdana">Dress Shirts ||</a>
                     <a id="Accesories"style="font-family:Verdana">Accessories ||</a>
+                    <a id="Searchbox" style="font-family:Verdana">Search </a>
+                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
                </div>
-            </asp:Label>
-            </asp:PlaceHolder>
+
+           <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+           
+ 
         </asp:ContentPlaceHolder>
     </div>
     </form>
