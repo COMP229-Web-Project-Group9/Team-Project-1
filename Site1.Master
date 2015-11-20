@@ -18,12 +18,13 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-
+   
     <form id="form1" runat="server">
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
     <div>
-        
+        <div id="Head" class="Header">
                 <img src="Images/BowTieLogo.jpg" />
-                <div style:display:inline;>
+                <div id="Navigation" style:display:inline;>
                     <a id="LogIn" style=" font-family:Verdana;">Log In  ||</a> 
                     <a id="Suits" style="font-family:Verdana;">Suits    ||</a>
                     <a id="DressShirts"style="font-family:Verdana">Dress Shirts ||</a>
@@ -31,10 +32,24 @@
                     <a id="Searchbox" style="font-family:Verdana">Search </a>
                     <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
                </div>
-
+        </div>
            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
            
  
+        </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            <div id="Foot">
+            <a>Contact Us: </a><br />
+            <a>Phone: 416-454-9991</a><br />
+            <a>Address:123 Suits Way</a><br />
+            <a>Email: Admin@ClassySuits.com</a>
+            <a>Copyright Classysuits.com 2015</a>
+
+            </div>
+            
+
+
+
         </asp:ContentPlaceHolder>
     </div>
     </form>
