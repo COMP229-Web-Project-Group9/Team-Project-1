@@ -2,11 +2,11 @@
 2.Armani Collezioni,Core Gio Two-Button Suit, Black,$2781.65 
 3.Armani Collezioni,Satin-trim woll suit,Navy,$1,835.00
 4.Armani Collezioni,Giorgio Model Suit,Black and Navy,$2642.22
-5.Armani Collenioni,Satin-trim woll and mohair-blen suit,Navy,$1,845.00
+5.Armani Collenioni,Satin-trim wool and mohair-blend suit,Navy,$1,845.00
 
-1.Gucci, New Brera checked woll and silk blend suit,Grey,$2,150
+1.Gucci, New Brera checked wool and silk blend suit,Grey,$2,150
 2.Gucci, Marseille wool tuxedo,Black,$3,965.00.
-3.Gucci, Marseille will mohair suit,Blue,$3,650
+3.Gucci, Marseille wool and mohair suit,Blue,$3,650
 4.Gucci, Marseille stripe selvage suit,black,$3,230
 5.Gucci, Dylan 60's suit with bicolor lining,Beige,$2,770
 6.Gucci, Monaco wool mohair suit, green, $3,035
@@ -14,7 +14,7 @@
 8.Gucci, Blue Brera slim-fit wool and mohair-blen twill suit,blue,$2,180
 
 1.Versace, Two button wool suit, Grey,$1526.77
-2.Versace, 91% Polyamide 9% Elastane,Black, $1392
+2.Versace, 91% Polyamide 9% Elastane Suit,Black, $1392
 3.Versace, Trend-fit wool suit,Grey,$1850
 4.Versace, 100% Wool,Black,$1091
 5.Versace, Trim Fit Solid Wool Suit,Charcoal,$996.31
@@ -31,3 +31,5 @@
 3.Hugo Boss, James Sharp Regular Fit Virgin Wool Suit, Blue, $1108.48
 4.Hugo Boss, Black Slim-fit adris stretch wool suit,Black,$631.00
 5.Hugo Boss, Pasolini Movie Suit, Black, $1108.48
+
+Insert INTO SUITS values("Armani","Two Button Solid Wool Suit","Blue",$3199,"ArmaniCollezioniSuit.1.PNG");

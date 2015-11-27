@@ -23,12 +23,12 @@
     <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
     <div>
         <div id="Head" class="Header">
-                <img src="Images/BowTieLogo.jpg" />
+            <a href="Default.aspx"><img src="Images/BowTieLogo.jpg" /></a>
                 <div id="Navigation" style:display:inline;>
                     <a id="LogIn" style=" font-family:Verdana;">Log In  ||</a> 
-                    <a id="Suits" style="font-family:Verdana;">Suits    ||</a>
-                    <a id="DressShirts"style="font-family:Verdana">Dress Shirts ||</a>
-                    <a id="Accesories"style="font-family:Verdana">Accessories ||</a>
+                    <a href="SuitsPage.aspx" id="Suits" style="font-family:Verdana; color:black;font-style:normal" >Suits    ||
+                   <a href="DressShirtsPage.aspx"id="DressShirts"style="font-family:Verdana; color:black;" >Dress Shirts     ||
+                  <a href="AccessoriesPage.aspx" id="Accesories"style="font-family:Verdana; color:black;">Accessories ||
                     <a id="Searchbox" style="font-family:Verdana">Search </a>
                     <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
                </div>
